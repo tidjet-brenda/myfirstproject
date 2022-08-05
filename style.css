@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+:root{
+        --black: #333333;
+        --red: #C1272D;
+        --shaded-red: #DF9595;
+        --green: #00751f;
+        --white: #ffffff;
+        --twhite:rgba(255, 255, 255, 0.836);
+        box-sizing: border-box;
+}
+
+* {
+        box-sizing: inherit;
+}
+body{
+        font-family: Raleway,Verdana, Geneva, Tahoma, sans-serif;
+        color: var(--black);
+        font-size: 1rem;
+}
+/*pour rendre les images responcive*/
+img{
+       max-width: 100%;
+       height: auto;
+
+}
+.accecible{
+        color: blueviolet;
+        position: absolute;
+        left: -1500px;
+       
+}
+
+
+h1  {
+        color: brown;
+        
+}
+
+main h2{
+        color: blue;
+}
+main{
+        padding: 20px;
+        background-color: var(--twhite);
+}
+
+#mainNav h1{
+        color: var(--green);
+        text-align: right;
+        letter-spacing: 1em;
+        
+}
+
+#content {
+        padding: 100px 20px;
+        background: url(../images/1.jpg) center center / cover no-repeat fixed;
+
+}
+
+#header > h1{
+        color: var(--white);
+        font-family: cantarall, verdana, Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.3em;
+        font-weight: normal;
+        display: none;
+        
+}
+
+
+
+#frmcontact input[type=text]{
+        color: blue;
+}
+
+#frmcontact input[ type=email]{
+        color: chartreuse;
+}
+
+#header, #footer{
+        background-color: var(--red);
+}
+#header{
+        height: 40px;
+}
+#logoBetN{
+        width: 80px;
+        padding: 5px;
+        border: solid 2px black;
+        
+}
+#mainNav a{
+        color: var(--white);
+        text-decoration: none;
+}
+
+#mainNav a:hover{
+        color: var(--shaded-red);
+}
+#mainNav{
+        display: none;
+}
+#footer{
+        text-align: center;
+        height: 40px;
+        font-size: .5em;
+}
+
+
